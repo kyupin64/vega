@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(22, 78, 134);
+    text-align: center;
+    height: auto;
+}
+#bg {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+#bg img {
+    left: -10%;
+    width: 120%;
+    position: absolute;
+    height: auto;
+    top: -150px;
+}
+#header {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    z-index: 2;
+}
+#brand {
+    float: left;
+    position: absolute;
+    padding: 1.3em 1.6em;
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+}
+.name {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    margin: 0 20px;
+    font-size: .9em;
+    text-decoration: none;
+    color: black;
+    letter-spacing: .3em;
+}
+#nav {
+    float: right;
+    padding: 1.3em 1.6em;
+}
+.nav-item {
+    margin: 0 20px;
+    font-size: .7em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.nav-item:hover {
+    text-decoration: underline;
+}
+#content {
+    margin: 15% 0;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: right;
+}
+#content img {
+    height: 70%;
+    width: 35%;
+}
+#content div {
+    margin: 10% 0;
+}
+#content p {
+    font-family: 'Montserrat', sans-serif;
+}
+#content h1 {
+    font-size: 550%;
+    font-weight: 600;
+}
+.logo-link {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 1%;
+    z-index: 2;
+}
